@@ -15,7 +15,6 @@
   "extensionConfig": {
     "docsName": "PixiJS APNG",
     "docsCopyright": "PIXI Copyright &copy; 2023 Matt Karl.",
-    "docsGoogleAnalytics": "UA-103772589-10",
     "docsTitle": "PixiJS APNG API Documentation",
     "docsDescription": "Documentation for PixiJS APNG library",
     "docsKeywords": "docs, documentation, pixi, pixijs, apng, animation, html5, javascript, jsdoc"
@@ -37,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pixijs-userland/gif.git"
+    "url": "git+https://github.com/olduvai-jp/pixi-apng.git"
   },
   "publishConfig": {
     "access": "public"
@@ -52,12 +51,12 @@
     "pixi",
     "pixijs"
   ],
-  "author": "Matt Karl @bigtimebuddy",
+  "author": "dyamagishi <dyamagishi@olduvai.jp>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pixijs-userland/gif/issues"
+    "url": "https://github.com/olduvai-jp/pixi-apng/issues"
   },
-  "homepage": "https://github.com/pixijs-userland/gif#readme",
+  "homepage": "https://github.com/olduvai-jp/pixi-apng#readme",
   "pre-commit": [
     "lint",
     "types"
