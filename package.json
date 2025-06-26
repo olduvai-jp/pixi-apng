@@ -1,0 +1,76 @@
+{
+  "name": "@olduvai-jp/pixi-apng",
+  "version": "0.1.0",
+  "description": "Animated PNG (APNG) Runtime for PixiJS",
+  "main": "./lib/index.js",
+  "module": "./lib/index.mjs",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/index.mjs",
+      "require": "./lib/index.js",
+      "types": "./lib/index.d.ts"
+    }
+  },
+  "extensionConfig": {
+    "docsName": "PixiJS APNG",
+    "docsCopyright": "PIXI Copyright &copy; 2023 Matt Karl.",
+    "docsGoogleAnalytics": "UA-103772589-10",
+    "docsTitle": "PixiJS APNG API Documentation",
+    "docsDescription": "Documentation for PixiJS APNG library",
+    "docsKeywords": "docs, documentation, pixi, pixijs, apng, animation, html5, javascript, jsdoc"
+  },
+  "scripts": {
+    "start": "xs serve",
+    "lint": "xs lint --max-warnings=0",
+    "types": "xs types",
+    "build": "xs build",
+    "docs": "xs docs",
+    "deploy": "xs deploy",
+    "release": "xs release",
+    "test": "xs test"
+  },
+  "engines": {
+    "node": ">=16",
+    "yarn": "please-use-npm",
+    "npm": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixijs-userland/gif.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "keywords": [
+    "apng",
+    "animation",
+    "pixi",
+    "pixijs"
+  ],
+  "author": "Matt Karl @bigtimebuddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pixijs-userland/gif/issues"
+  },
+  "homepage": "https://github.com/pixijs-userland/gif#readme",
+  "pre-commit": [
+    "lint",
+    "types"
+  ],
+  "devDependencies": {
+    "@pixi/extension-scripts": "^2.4.1",
+    "pixi.js": "^8.0.0",
+    "pre-commit": "^1.2.2",
+    "apng-js": "^1.1.5"
+  },
+  "peerDependencies": {
+    "pixi.js": "^8.0.0"
+  },
+  "dependencies": {
+  }
+}
